@@ -55,7 +55,7 @@ def load_and_clean_data(file_path):
     return df
 
 # --- GIAO DIỆN SIDEBAR ---
-st.sidebar.image("Buoi6/ntp_logo.png", width=100)
+st.sidebar.image("ntp_logo.png", width=100)
 st.sidebar.title("Hệ Thống SCADA")
 # Thêm nút bật tắt chế độ thời gian thực ở thanh Sidebar
 auto_refresh = st.sidebar.checkbox("🔄 Tự động cập nhật (5s/lần)", value=False)
